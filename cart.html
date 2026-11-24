@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header id="header">
+      <img src="assets/image/logo.png" alt="Bitebox logo" width="150">
+      <nav>
+      <a href="#home">Home</a>
+      <a href="#specialities">Menu</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      </nav>
+      
+    </header>
+    <section id="cart-hero">
+      <h2>Your shopping cart</h2>
+      <p>Review your selected food item before proceeding</p>
+       <hr>
+       <p>Update quantities remove item and confirm your order</p>
+    </section>
+    <section id="cart-details">
+      <table border="1" id="shopping-cart">
+        <thead>
+          <tr>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Total</th>
+          <th>Action</th>
+           </tr>
+           </thead>
+          <tbody id="cart-items">
+
+          </tbody>
+        
+      </table>
+    </section>
+    <section id="order-summary">
+      <h2>Order Summary</h2>
+       <p>
+        <span>Subtotal(<span id="item-count">0</span>Items)</span>
+        <span id="subtotal-amount">Rs. 0.00</span>
+      </p>
+
+       <p><span>Delivery charges</span>
+        <span id="delivery-amount">Rs. 0.00</span></p>
+       
+       <hr>
+       <h3><span>Total Amount</span>
+        <span id="total-amount">Rs. 0.00</span></h3>
+       <button>Proceed to checkout</button>
+       <p><img src="assets/image/secure.png" alt="secure" width="18">Secure  Payment</p>
+    </section>
+    <section id="cart-actions">
+      <a href="menu.html">
+        <img src="assets/image/left_arrow.png" alt="left arrow" width="18"  height="18">
+        Continue shopping
+      </a>
+      
+       <button type="button" id="clear-cart">
+        <img src="assets/image/delete.png" alt="delete" width="18" height="18">
+        Clear Cart
+       </button>
+      </section>
+       
+     <footer>
+      <p>
+        <a href="#home">Home</a>
+        <a href="#specialities">Menu</a>
+        <a href="#contact">Contact</a>
+      </p>
+      <p>
+        2026 BiteBox. All rights reserved
+      </p>
+      <a href="#header">Back to top</a>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

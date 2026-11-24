@@ -1,0 +1,865 @@
+*{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+  background-color: rgb(238,238,205);
+  padding: 20px;
+  border-bottom: 2px solid rgb(205,43,43);
+}
+
+nav a{
+  text-decoration: none;
+  color: rgb(12,12,12);
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 12px;
+}
+
+nav a:hover{
+  color:red;
+  text-decoration: underline;
+}
+
+#hero-home{
+  background-image: url(/assets/image/banner.png);
+  background-position: center;
+  background-size: cover;
+  height: 430px;
+  padding: 55px 80px;
+}
+
+#hero-home h1{
+  color:white;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  width: 650px;
+  margin-bottom: 50px;
+}
+
+#hero-home h1 span{
+  color: rgb(185,185,11);
+}
+
+#hero-home p{
+  color:white;
+  width: 420px;
+  margin-bottom: 35px;
+}
+
+.hero-buttons a{
+  width: 150px;
+  padding: 15px 30px;
+  text-align:center;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+
+#order-btn{
+  background-color: red;
+  color: wheat;
+  margin-right: 15px;
+}
+
+#menu-btn{
+  color: rgb(18,17,17);
+  background-color: beige;
+  border: 2px solid white;
+}
+
+#home{
+  background-color: beige;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+#home h1 mark{
+  background-color: antiquewhite;
+  color:red;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+#home h2{
+  margin-top: 40px;
+  color:red;
+  font-family: cursive;
+  font-weight: 300px;
+}
+
+#home p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 200px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#home p b{
+  color:red;
+  
+}
+
+#home p strong{
+  color: red;
+}
+
+
+#home hr{
+  margin-top: 15px;
+  background-color: red;
+  height: 2px;
+}
+
+#about{
+  background-color: beige;
+
+}
+
+#about h2{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:red;
+}
+#about p{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#specialities{
+  background-color: beige;
+  padding: 40px;
+  text-align: center;
+}
+#specialities h3{
+  color:red;
+}
+#specialities ul,ol{
+  display: inline-block;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+
+#specialities li{
+  font-size: 17px;
+}
+
+#gallery{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery article{
+      background-color: white;
+      padding: 30px;
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px red;
+}
+#gallery article:hover{
+  transform:translateY(-10px);
+}
+
+#offers{
+  background-color: beige;
+  padding: 40px;
+  text-align: center;
+  border: 2px solid orange;
+}
+#offers h2{
+    color: red;
+    margin-bottom: 20px;
+}
+
+#offers p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#offers strong{
+  color: red;
+}
+
+#offers mark{
+  display: inline-block;
+  background-color: antiquewhite;
+  border: 2px solid white;
+  margin: 20px;
+}
+
+#offers a{
+  color: orangered;
+  text-decoration:underline;
+
+}
+
+#offers a:hover{
+  color:black;
+}
+#customer-notice{
+  background-color: beige;
+  border-left: 2px solid orange ;
+}
+
+#customer-notice h2{
+  color: red;
+  margin-bottom: 20px;
+  padding: 25px;
+  text-align: center;
+}
+#customer-notice p{
+ text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+#customer-notice span{
+    background-color: antiquewhite;
+    color: red;
+}
+
+#faq{
+  background-color: beige ;
+  padding: 20px;
+}
+
+#faq h2{
+  color: red;
+  text-align:center;
+  margin-bottom: 20px;
+}
+
+#faq details{
+  background-color: white;
+  border: 2px solid rgb(178,171,171);
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+#faq summary{
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#contact{
+  background-color: beige;
+  text-align: center;
+
+}
+#contact h2{
+  color: red;
+  margin-bottom: 20px;
+}
+#contact p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#contact hr{
+  background-color:red;
+  height: 2px;
+}
+
+#opening-hour{
+  background-color: beige;
+  text-align: center;
+  padding: 20px;
+}
+
+#opening-hour mark{
+  display:inline-block;
+  background-color: antiquewhite;
+  margin-bottom: 20px;
+}
+
+#opening-hour h2{
+  color:red;
+}
+#opening-hour p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+footer{
+  background-color: black;
+  color:white;
+  padding: 30px;
+  text-align: center;
+}
+
+footer p{
+  margin-bottom: 15px;
+}
+
+footer a{
+  color:white;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover{
+  color: orange;
+  text-decoration: underline;
+}
+#menu-items{
+  background-color: beige;
+}
+#menu-items h2{
+  color:red;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#menu-items div{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: beige;
+  padding: 20px;
+}
+
+#menu-items article{
+  background-color: white;
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgb(62,3,3);
+  height: 300px;
+}
+
+#menu-items article:hover{
+  transform: translateY(-10px);
+}
+
+#menu-food{
+  background-color: beige;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+#menu-food article{
+  background-color: white;
+  width:280px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px red;
+}
+
+#menu-food article:hover{
+  transform: translateY(-10px);
+}
+
+#menu-table{
+  background-color: beige;
+}
+
+#menu-table table{
+  background-color: blanchedalmond;
+
+}
+#menu-table caption{
+  background-color: beige;
+  color:red;
+  font-weight: bold;
+  font-size: large;
+}
+
+#menu-table th{
+  background-color: black;
+  color: white;
+
+}
+
+#menu-table td{
+  border: 2px solid orangered;
+}
+#restaurant-info{
+  background-color: beige;
+  text-align: center;
+  color: red;
+  padding: 35px;
+}
+#about-hero{
+  background-color: beige;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+#about-hero h1{
+  color: red;
+}
+#about-hero p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#story{
+  padding: 40px 20px;
+  text-align: center;
+  background-color: beige;
+}
+#story h3,h2{
+  color:red;
+  padding: 5px;
+}
+#story p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#chefs{
+  padding: 40px 20px;
+  text-align: center;
+  background-color: beige;
+}
+#chefs article{
+  display: inline-block;
+  background-color:rgb(240, 229, 229);
+  width: 280px;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px red;
+}
+#chefs h2{
+  color:red;
+}
+#chefs img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#chefs article:hover{
+  transform: translateY(-10px);
+}
+
+#chefs p{
+  color:orangered;
+}
+#contact-links{
+  background-color: beige;
+  text-align: center;
+  padding: 15px;
+}
+#contact-links a{
+  display: inline-block;
+  color:orangered;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+#contact-links p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#business-hours{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 30px;
+  background-color: beige;
+
+}
+#business-hours h2{
+      color:red;
+
+}
+
+table{
+  width: 100%;
+
+}
+td{
+  padding: 10px;
+  border-bottom: 1px solid bisque;
+}
+
+#registration-form,#contact-form{
+  width: 650px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color:rgb(240, 229, 229);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px red;
+}
+#forms{
+  background-color: beige;
+}
+form h3{
+  margin-top: 20px;
+}
+
+label{
+  font-weight: 700;
+}
+
+input,select,textarea{
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  width: 280px;
+}
+
+input[type="radio"],[type="checkbox"]{
+  width:auto;
+  margin-right: 8px;
+}
+
+input[type="submit"],[type="reset"]{
+  background-color: orangered;
+  color:white;
+}
+
+#multi-media{
+  background-color: beige;
+}
+#multi-media h2{
+  color: red;
+  text-align: center;
+  padding: 20px;
+}
+.media{
+ display: flex;
+ margin-left: 100px;
+ gap: 100px;
+ margin-bottom: 50px;
+}
+
+#promo-video{
+  width: 500px;
+  height: 400px;
+  box-shadow: 0 4px 8px orangered;
+}
+
+#food-video{
+ width: 500px;
+ height: 400px;
+ margin-top: auto;
+ box-shadow: 0 4px 8px orangered;
+}
+
+#googlemap{
+  align-items: center;
+  justify-content: center;
+}
+
+#social-media{
+  background-color: beige;
+}
+#social-media h2,h3{
+  color: red;
+  text-align: center;
+}
+.smedia a{
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+#cart-hero{
+  background-color: beige;
+  color: orangered;
+  text-align: center;
+  padding: 35px;
+}
+
+#cart-details{
+  background-color: antiquewhite;
+  margin: 30px auto;
+  padding: 20px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+#cart-details table{
+  width: 100%;
+  text-align: center;
+}
+
+#cart-details th{
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+
+#cart-details td{
+   padding: 15px;
+   border: 2px solid orangered;
+
+}
+
+#cart-details button{
+  padding: 5px 12px;
+  background-color: orangered;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#order-summary{
+  background-color: beige;
+  text-align: center;
+  padding: 15px;
+}
+#order-summary p,h2,h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  color: orangered;
+}
+#order-summary button{
+  padding: 5px 12px;
+  background-color: rgb(220, 184, 137);
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#order-summary button:hover{
+   background-color: orange;
+   color:white;
+}
+#cart-actions{
+  background-color: beige;
+  text-align: center;
+}
+#cart-actions button{
+   padding: 5px 12px;
+  background-color: rgb(220, 184, 137);
+  color: black;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+#cart-actions button:hover{
+  background-color: orange;
+   color:white;
+}
+#cart-actions a{
+  display: inline-block;
+  gap: 20px;
+}
+header{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+@media screen and(max-width:768px)
+{
+  body{
+    width: 100%;
+    overflow-x: hidden;
+  }
+  #header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    gap: 12px;
+  }
+  nav{
+    margin:0;
+    font-size: 25px;
+  }
+  #home-hero{
+    width:100%;
+    height: auto;
+    min-height: 350px;
+    padding: 42px 20px;
+    background-position: center;
+    background-size: cover;
+  }
+ #hero-home h1{
+  width: 100%;
+  max-width: 100%;
+  font-size: 5px;
+  line-height: 1.3;
+ }
+
+ .hero-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+ }
+
+ .hero-buttons a{
+  margin: 5px 0;
+ }
+ #main-content{
+  width: 100%;
+  padding: 10%;
+ }
+
+ #about,
+ #specialities,
+ #offers,#faq,
+ #opening-hours,
+ #contact{
+  padding: 25px 15px;
+ }
+
+ #main-content h2{
+  font-size: 25px;
+ }
+ #main-content p,li{
+  font-size: 15px;
+  line-height:1.6;
+ }
+ #specialities img{
+  max-width: 100%;
+  height: auto;
+ }
+ #customer-notice{
+  margin: 15px;
+  padding: 20px;
+ }
+ #menu-hero{
+  padding: 45px 20px;
+ }
+ #menu-hero h1{
+  font-size: 30px;
+ }
+ #menu-hero p{
+  font-size: 15px;
+  line-height: 1.6;
+ }
+ #categories>div, #menu-item>div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+ }
+ #categories article img{
+  max-width: 100%;
+  height: 100px;
+ }
+ #search{
+  width: 70px;
+  max-width: 300px;
+
+ }
+ #offer{
+  margin: 20px 15px;
+  padding: 30px 15px;
+ }
+ #about-hero{
+  padding: 40px 15px;
+ }
+ #about-hero h1{
+  font-size: 30px;
+ }
+ #story{
+  padding: 25px 15px;
+ }
+ #story article{
+  padding: 20px;
+ }
+ #story img{
+  max-width: 100%;
+  height: auto;
+ }
+ #chef article{
+  width: 250px;
+  max-width: 90%;
+  margin: 12px;
+ }
+ #contact-hero{
+  padding: 35px 15px;
+ }
+
+ input,select,textarea{
+  max-width: 100%;
+ }
+ #cart-hero{
+  padding: 30px 15px;
+ }
+ #cart-hero h2{
+  font-size: 27px;
+ }
+ #cart-details{
+  width: 90%;
+  overflow-x: auto;
+  padding: 15px;
+ }
+ #shopping-cart{
+  width: 100%;
+  min-width: 550px;
+ }
+ #shopping-cart th,#shopping-cart td{
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+ }
+ #shopping-cart img{
+  max-width: 70px;
+  height: auto;
+ }
+ #order-summary{
+  width:  90%;
+  max-width: 450px;
+  margin: 20px auto;
+  padding: 20px;
+ }
+ #order-summary p,
+ #order-summary h3{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+
+ }
+ #order-summary button{
+  width: 100%;
+ }
+ #cart-action{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+ }
+ #footer{
+  width: 100%;
+  padding: 25px 15px;
+  text-align: center;
+ }
+ #footer section{
+  width: 100%;
+  padding: 15px 0;
+ }
+ #footer img{
+  max-width: 100%;
+  height: auto;
+ }
+ #footer{
+  padding: 20px 15px;
+  text-align: center;
+ }
+ #footer a{
+  display: inline-block;
+  margin: 5px;
+ }
+ img,video{
+  max-width: 100%;
+  height: auto;
+ }
+ iframe{
+  max-width: 100%;
+ }
+ #google-map iframe{
+  width: 100%;
+  height: 300px;
+ }
+ 
+}
